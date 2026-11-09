@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ronova_cosmetics",
+  "version": "${version}",
+  "name": "Ronova Cosmetics",
+  "description": "Client-Mod mit rot-schwarzen Cosmetics (Heiligenschein, Seelenaura, Rabenschwarm, Todesspur). GUI mit /ronona.",
+  "authors": [
+    "BlaBla-boop-rgb"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.ronovamod.cosmetics.CosmeticsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
